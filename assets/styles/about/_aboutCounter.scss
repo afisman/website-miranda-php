@@ -1,0 +1,95 @@
+.AboutCounter {
+    max-width: 73.125rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+
+    &__title {
+        margin-top: 2rem;
+
+        h5 {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700;
+            font-size: 0.9rem;
+            line-height: 1rem;
+            letter-spacing: 0.175rem;
+            color: #777;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-family: 'Old Standard TT', sans-serif;
+            font-weight: 400;
+            font-size: 3.5rem;
+            line-height: 3.8rem;
+            letter-spacing: -0.08rem;
+            color: #222;
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__items {
+        margin-bottom: 2rem;
+
+        &__item {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            justify-content: space-between;
+
+            &__text {
+
+                h3 {
+                    font-family: 'Old Standard TT', sans-serif;
+                    font-weight: 400;
+                    font-size: 3.8rem;
+                    line-height: 3.8rem;
+                    letter-spacing: -0.12rem;
+                }
+
+                p {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 1rem;
+                }
+            }
+        }
+    }
+
+    &__swiper {
+        width: 100%;
+        margin: 0 auto;
+
+        &__item {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .swiper-pagination-bullet {
+            opacity: 1;
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #73c0da;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .AboutCounter {
+        padding: 0;
+
+        &__items {
+            display: flex;
+            gap: 3rem;
+            justify-content: space-between;
+        }
+    }
+}

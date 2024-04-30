@@ -1,0 +1,90 @@
+.featuresSection {
+    max-width: 73.125rem;
+    margin-bottom: 4rem;
+
+    &__title {
+        text-align: center;
+
+        h5 {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700;
+            font-size: 0.875rem;
+            line-height: 0.951875rem;
+            letter-spacing: 0.175rem;
+            color: #777;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-family: 'Old Standard TT', sans-serif;
+            font-weight: 400;
+            font-size: 3.5rem;
+            line-height: 3.75rem;
+            letter-spacing: - 0.075rem;
+            color: #222;
+        }
+    }
+
+    &__swiper {
+        margin-bottom: 2rem;
+        margin: 0 auto;
+
+        &__item {
+            padding: 2rem;
+            cursor: pointer;
+            border-radius: .2rem;
+            margin: 4rem 0;
+
+            &__title {
+                display: flex;
+                justify-content: space-between;
+
+                img {
+                    &:hover {
+                        transform: scale(1.02);
+                    }
+                }
+
+                h2 {
+                    font-size: 7.5rem;
+                    font-weight: 700;
+                    font-family: 'Archivo', sans-serif;
+                    color: #2222220A;
+                    transform: translate(25%, -35%);
+                }
+            }
+
+            h4 {
+                font-family: 'Old Standard TT', sans-serif;
+                font-size: 2rem;
+                line-height: 2rem;
+                letter-spacing: -0.07rem;
+                color: #222;
+                font-weight: 400;
+            }
+
+            p {
+                margin-top: 1rem;
+                font-family: 'Archivo', sans-serif;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.6rem;
+                color: #777;
+            }
+
+
+            img {
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .featuresSection {
+        margin: 3rem auto;
+    }
+}

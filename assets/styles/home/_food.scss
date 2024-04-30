@@ -1,0 +1,164 @@
+.foodSection {
+    margin-bottom: 2rem;
+    overflow: hidden;
+
+    &__donut {
+        text-align: right;
+
+        img {
+            transform: translateX(2rem);
+        }
+    }
+
+    &__body {
+        max-width: 73.125rem;
+        padding: 1rem;
+
+        h5 {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: .2rem;
+            line-height: 1.1rem;
+            color: #777;
+        }
+
+        h2 {
+            margin: 1rem 0;
+            font-family: 'Old Standard TT', sans-serif;
+            font-weight: 400;
+            font-size: 5rem;
+            line-height: 6rem;
+            letter-spacing: -0.16rem;
+            color: #222;
+        }
+
+        &__swiper {
+
+            .swiper-slide {
+                display: flex;
+                padding: 0;
+            }
+
+            &__item {
+                display: flex;
+                align-items: center;
+                color: #222;
+                cursor: pointer;
+                padding: 0;
+
+
+                & img {
+                    width: 7.5rem;
+                    height: 7.5rem;
+                }
+
+
+                &__text {
+                    padding: 1rem;
+
+                    h4 {
+                        font-family: 'Old Standard TT', sans-serif;
+                        font-weight: 400;
+                        font-size: 1.5rem;
+                        line-height: 1.5rem;
+                        letter-spacing: -0.08rem;
+                        padding: .5rem;
+                    }
+
+                    p {
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 400;
+                        font-size: 1rem;
+                        line-height: 1.5rem;
+                        padding: .5rem;
+                    }
+                }
+
+                &__arrow {
+                    display: none;
+                    opacity: 0;
+                    padding: 1rem;
+                }
+            }
+
+
+        }
+
+        .buttons-menu {
+            width: 6rem;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 4rem;
+            margin-left: 65%;
+
+            .swiper-button-disabled {
+                background-color: #F8F8F8;
+            }
+
+            &__prev,
+            &__next {
+                background-color: #BDAC8D;
+                padding: 1.2rem;
+                font-size: .08rem;
+                cursor: pointer;
+
+                svg {
+                    path {
+                        fill: #111;
+                    }
+                }
+
+                svg {
+                    transform: scale(2);
+                }
+            }
+        }
+    }
+
+
+}
+
+@media screen and (min-width: 1000px) {
+    .foodSection {
+        &__donut {
+            text-align: left;
+            max-width: 1170px;
+            margin: 0 auto 2rem auto;
+
+            img {
+                transform: translateX(-15rem);
+            }
+        }
+
+        &__body {
+            position: relative;
+            margin: 0 auto;
+
+            &__swiper {
+                &__item {
+
+                    &__arrow {
+                        display: block;
+                    }
+
+                    &:hover {
+                        background-color: #111;
+                        color: #fff;
+                    }
+
+                    &:hover>&__arrow {
+                        opacity: 1;
+                    }
+                }
+            }
+
+            .buttons-menu {
+                margin-top: 0;
+                position: absolute;
+                top: 10%;
+                right: 10%;
+            }
+        }
+    }
+}

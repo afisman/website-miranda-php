@@ -1,0 +1,71 @@
+.AboutRestaurant {
+
+    max-width: 73.125rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    padding: 0 2rem;
+
+    &__img {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+
+    &__text {
+        margin-top: 2rem;
+
+        h5 {
+            margin-bottom: 1rem;
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700;
+            color: #777;
+            letter-spacing: 0.175rem;
+            font-size: 0.8rem;
+            line-height: 1rem;
+        }
+
+        h2 {
+            font-family: 'Old Standard TT', sans-serif;
+            font-weight: 400;
+            font-size: 3.5rem;
+            line-height: 4rem;
+            letter-spacing: -0.08rem;
+            color: #222;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 400;
+            font-size: 0.8rem;
+            line-height: 1.5rem;
+            color: #777;
+            margin-bottom: 1rem;
+        }
+
+        button {
+            background-color: #BEAD8E;
+            color: #fff;
+            padding: 1rem 2rem;
+            border: none;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .AboutRestaurant {
+        padding: 0;
+        display: flex;
+        gap: 2rem;
+
+        &__img {
+            flex: 1 1 0;
+        }
+
+        &__text {
+            flex: 1 1 0;
+        }
+    }
+}

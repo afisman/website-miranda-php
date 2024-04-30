@@ -1,0 +1,208 @@
+.header {
+    width: 100%;
+    background-color: #111111;
+    margin: 0;
+    height: 7rem;
+
+    &__nav {
+        max-width: 1420px;
+        margin: 0 auto;
+
+        p {
+            display: none;
+        }
+    }
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    max-width: 1420px;
+    z-index: 9;
+
+
+    &__burger {
+
+        padding: .5rem;
+        background-color: #fff;
+        border: none;
+        font-size: 1.8rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            color: #111111;
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            width: 2.25rem;
+            height: 2.25rem;
+            text-align: center;
+            font-family: 'Archivo', sans-serif;
+            box-shadow: 0 0.8rem 1.5rem 0 #8B8B8B40;
+        }
+
+        h2 {
+            padding: 2rem;
+            font-size: 1rem;
+            color: #111111;
+            font-family: 'Archivo', sans-serif;
+            font-weight: 400
+        }
+    }
+
+
+
+    &__center {
+        display: none;
+        background-color: white;
+        margin-top: 15rem;
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        left: 0;
+        padding: .8rem;
+
+        &__link {
+            display: block;
+            padding: .8rem;
+            color: #111;
+            text-decoration: none;
+            font-size: 1rem;
+            font-family: 'Archivo', sans-serif;
+            font-weight: 600;
+            line-height: 1.125rem;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+
+    &__right {
+        display: flex;
+
+        &__button {
+            padding: .5rem;
+            margin-right: 1rem;
+            background-color: #fff;
+            border: 0.125rem solid #8585854D;
+            display: flex;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            img {
+                width: 1rem;
+                height: 1rem;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+    .header {
+        display: block;
+        width: 100%;
+        background-color: #111111;
+        margin: 0;
+        height: 7rem;
+
+        &__nav {
+
+            p {
+                display: block;
+                padding: 1rem 0 0;
+                color: #fff;
+            }
+        }
+    }
+
+    .navbar {
+
+        margin: 0 auto;
+        transform: translateY(10%);
+        padding: .5rem;
+        position: static;
+
+        &__burger {
+            display: none;
+        }
+
+        &__left {
+            h1 {
+                transform: scale(1.5);
+            }
+
+            h2 {
+                padding: 2rem;
+                font-size: 2rem;
+                color: #111111;
+                font-family: 'Archivo', sans-serif;
+                font-weight: 400
+            }
+        }
+
+        &__center {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0;
+            position: static;
+            width: auto;
+
+            a {
+                padding: 2rem;
+                color: #111111;
+                font-weight: 600;
+                font-size: 1.2rem;
+                line-height: 1.3rem;
+                font-family: 'Archivo', sans-serif;
+            }
+        }
+
+        &__right {
+
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+
+    .fixed {
+        position: fixed;
+        transition: all 3s ease-out;
+        z-index: 10;
+        // transform: translate3d(0, -100%, 0);
+    }
+
+    .normal {
+        position: static;
+        transition: all 3s ease-out;
+    }
+}

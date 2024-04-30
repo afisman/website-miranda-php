@@ -1,0 +1,89 @@
+.RoomsBanner {
+    background-color: #333;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+
+    &__text {
+        color: #fff;
+        padding: 2rem;
+        margin: 2rem;
+
+        p {
+            font-size: 0.8125rem;
+            font-family: 'Archivo', sans-serif;
+            line-height: 1.125rem;
+            font-weight: 700;
+            letter-spacing: 0.175rem;
+
+        }
+
+        h2 {
+            font-family: 'Old Standard TT', sans-serif;
+            font-weight: 400;
+            font-size: 3.5rem;
+            line-height: 3.75rem;
+            letter-spacing: -0.075rem;
+            margin: 1.5rem 0;
+        }
+    }
+
+    &__links {
+
+        background-color: #fff;
+        display: flex;
+        justify-content: space-around;
+        width: 16rem;
+        padding: 1rem 0.5rem;
+        margin-right: 2rem;
+        margin-left: auto;
+        border: none;
+        text-align: center;
+
+        a {
+            flex: 1 1 0;
+            text-decoration: none;
+            color: #222;
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.1rem;
+            letter-spacing: -0.04rem;
+        }
+
+        .RoomsSelected {
+            color: #BEAD8E;
+        }
+
+        .RoomsHome {
+            border-right: .05rem solid #222;
+        }
+
+    }
+}
+
+.section {
+    max-width: 73.125rem;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1000px) {
+    .RoomsBanner {
+        padding-top: 8rem;
+
+        &__text {
+            margin: 0;
+            padding: 0;
+
+            p {
+                font-size: 0.875rem;
+                line-height: 0.951875rem;
+                letter-spacing: 0.175rem;
+            }
+
+            h2 {
+                font-size: 4.5rem;
+                line-height: 4.5rem;
+            }
+        }
+    }
+}
