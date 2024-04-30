@@ -7,7 +7,7 @@
                     <h2>Ultimate Room</h2>
                 </div>
                 <div class="RoomsBanner__links">
-                    <a href="./index.html" class="RoomsHome">
+                    <a href="./index.php" class="RoomsHome">
                         Home
                     </a>
                     <a href="#" class="RoomsSelected">
@@ -77,7 +77,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -138,7 +138,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -199,7 +199,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -260,7 +260,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -321,7 +321,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -382,7 +382,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -443,7 +443,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -504,7 +504,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -565,7 +565,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -626,7 +626,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -687,7 +687,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -748,7 +748,7 @@
                         <div class="RoomsListSection__swiper__price">
                             <h4>$345<p>/Night</p>
                             </h4>
-                            <h5><a href="./roomDetails.html">Book Now</a></h5>
+                            <h5><a href="./roomDetails.php">Book Now</a></h5>
                         </div>
                     </div>
                 </div>

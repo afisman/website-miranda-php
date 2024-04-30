@@ -7,7 +7,7 @@
                     <h2>About Us</h2>
                 </div>
                 <div class="AboutBanner__links">
-                    <a href="./index.html" class="AboutHome">
+                    <a href="./index.php" class="AboutHome">
                         Home
                     </a>
                     <a href="#" class="AboutSelected">

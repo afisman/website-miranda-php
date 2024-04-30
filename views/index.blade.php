@@ -24,7 +24,7 @@
                     </label>
                 </div>
                 <button type="submit" class="calendarSection__form__button">
-                    <a href="./roomsList.html">CHECK AVAILABILITY</a>
+                    <a href="./roomsList.php">CHECK AVAILABILITY</a>
                 </button>
             </form>
         </section>

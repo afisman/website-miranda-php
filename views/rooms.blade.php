@@ -7,7 +7,7 @@
                     <h2>Ultimate Room</h2>
                 </div>
                 <div class="RoomsBanner__links">
-                    <a href="./index.html" class="RoomsHome">
+                    <a href="./index.php" class="RoomsHome">
                         Home
                     </a>
                     <a href="#" class="RoomsSelected">
@@ -71,7 +71,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -239,7 +239,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -295,7 +295,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -351,7 +351,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -407,7 +407,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -463,7 +463,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -519,7 +519,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -575,7 +575,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -631,7 +631,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
@@ -687,7 +687,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>$345/Night</h4>
-                                <h5><a href="./roomDetails.html">Book Now</a></h5>
+                                <h5><a href="./roomDetails.php">Book Now</a></h5>
                             </div>
                         </div>
                     </div>

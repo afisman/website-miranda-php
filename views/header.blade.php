@@ -5,16 +5,16 @@
                 <div class="hamburger-menu" id="hamburguer_menu" onclick="openMenu()">
                     <button class="navbar__burger" id="hamburger_button"> ☰</button>
                 </div>
-                <a href="./index.html" class="navbar__left">
+                <a href="./index.php" class="navbar__left">
                     <h1>H</h1>
                     <h2><b>HOTEL</b></br> MIRANDA</h2>
                 </a>
 
                 <navbar id="nav_links" class="navbar__center">
-                    <a href="./about.html" class="navbar__center__link">About Us</a>
-                    <a href="./rooms.html" class="navbar__center__link">Rooms</a>
-                    <a href="./offers.html" class="navbar__center__link">Offers</a>
-                    <a href="./contact.html" class="navbar__center__link">Contact</a>
+                    <a href="./about.php" class="navbar__center__link">About Us</a>
+                    <a href="./rooms.php" class="navbar__center__link">Rooms</a>
+                    <a href="./offers.php" class="navbar__center__link">Offers</a>
+                    <a href="./contact.php" class="navbar__center__link">Contact</a>
                 </navbar>
 
                 <div class="navbar__right">

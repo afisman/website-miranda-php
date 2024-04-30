@@ -7,7 +7,7 @@
                     <h2>Our Offers</h2>
                 </div>
                 <div class="OffersBanner__links">
-                    <a href="./index.html" class="OffersHome">
+                    <a href="./index.php" class="OffersHome">
                         Home
                     </a>
                     <a href="#" class="OffersSelected">
