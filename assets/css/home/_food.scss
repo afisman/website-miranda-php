@@ -35,6 +35,10 @@
 
         &__swiper {
 
+            .swiper-wrapper {
+                transform: none !important;
+            }
+
             .swiper-slide {
                 display: flex;
                 padding: 0;

@@ -1,6 +1,21 @@
 <?php
     require_once(__DIR__ .'/helpers/renderTemplate.php');
+    require_once(__DIR__ .'/helpers/connectionSQL.php');
+    require_once(__DIR__ .'/helpers/queries/roomsQueries.php');
+
+    $roomsQuery = $allRoomsQuery;
+
+    $allRoomsResult = $conn->query($roomsQuery);
+    $roomsData = array();
+
+    if ($allRoomsResult->num_rows > 0) {
+        while($row = $allRoomsResult->fetch_assoc()) {
+        $roomsData[] = $row;
+    }
+    } else {
+        echo "0 results";
+    }
     $templateName = 'rooms';
-    $values = ['title' => 'Rooms'];
+    $values = ['title' => 'Rooms', 'rooms' => $roomsData];
     renderTemplate($templateName, $values);
 ?>

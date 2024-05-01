@@ -32,19 +32,19 @@
             <div class="aboutUsSection__left">
                 <div class="aboutUsSection__left__strong">
                     <div class="aboutUsSection__left__strong__left">
-                        <img src="./Img/aboutUs-strong.svg" alt="people front" class="strong-imgFront">
-                        <img src="./Img/aboutUs-strong-2.svg" alt="people background">
+                        <img src="./assets/Img/aboutUs-strong.svg" alt="people front" class="strong-imgFront">
+                        <img src="./assets/Img/aboutUs-strong-2.svg" alt="people background">
                         <div class="aboutUsSection__left__strong__left__text">
                             <h3>Strong Team</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
-                    <img src="./Img/aboutUs-hotel.jpg" alt="" class="aboutUsSection__left__strong__img">
+                    <img src="./assets/Img/aboutUs-hotel.jpg" alt="" class="aboutUsSection__left__strong__img">
                 </div>
                 <div class="aboutUsSection__left__luxury">
-                    <img src="./Img/aboutUs-hotel.jpg" alt="" class="aboutUsSection__left__luxury__img">
+                    <img src="./assets/Img/aboutUs-hotel.jpg" alt="" class="aboutUsSection__left__luxury__img">
                     <div class="aboutUsSection__left__luxury__right">
-                        <img src="./Img/aboutUs-luxury.svg" alt="">
+                        <img src="./assets/Img/aboutUs-luxury.svg" alt="">
                         <h3>Luxury Room</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                     </div>
@@ -175,7 +175,7 @@
                 <div class="swiper-wrapper">
                     <div class="featuresSection__swiper__item swiper-slide">
                         <div class="featuresSection__swiper__item__title">
-                            <img src="./Img/rating-features.svg" alt="Rating features">
+                            <img src="./assets/Img/rating-features.svg" alt="Rating features">
                             <h2>01</h2>
                         </div>
                         <h4>Have High Rating</h4>
@@ -185,7 +185,7 @@
                     </div>
                     <div class="featuresSection__swiper__item swiper-slide">
                         <div class="featuresSection__swiper__item__title">
-                            <img src="./Img/quietHours-features.svg" alt="Quiet hours ">
+                            <img src="./assets/Img/quietHours-features.svg" alt="Quiet hours ">
                             <h2>02</h2>
                         </div>
                         <h4>Quiet Hours</h4>
@@ -195,7 +195,7 @@
                     </div>
                     <div class="featuresSection__swiper__item swiper-slide">
                         <div class="featuresSection__swiper__item__title">
-                            <img src="./Img/location-features.svg" alt="Location ">
+                            <img src="./assets/Img/location-features.svg" alt="Location ">
                             <h2>03</h2>
                         </div>
                         <h4>Best Locations</h4>
@@ -205,7 +205,7 @@
                     </div>
                     <div class="featuresSection__swiper__item swiper-slide">
                         <div class="featuresSection__swiper__item__title">
-                            <img src="./Img/cancellation-features.svg" alt="Cancellation ">
+                            <img src="./assets/Img/cancellation-features.svg" alt="Cancellation ">
                             <h2>04</h2>
                         </div>
                         <h4>Free Cancellation</h4>
@@ -215,7 +215,7 @@
                     </div>
                     <div class="featuresSection__swiper__item swiper-slide">
                         <div class="featuresSection__swiper__item__title">
-                            <img src="./Img/payment-features.svg" alt="Payment Options">
+                            <img src="./assets/Img/payment-features.svg" alt="Payment Options">
                             <h2>05</h2>
                         </div>
                         <h4>Payment Options</h4>
@@ -225,7 +225,7 @@
                     </div>
                     <div class="featuresSection__swiper__item swiper-slide">
                         <div class="featuresSection__swiper__item__title">
-                            <img src="./Img/specialOffers-features.svg" alt="Special Offers ">
+                            <img src="./assets/Img/specialOffers-features.svg" alt="Special Offers ">
                             <h2>06</h2>
                         </div>
                         <h4>Special Offers</h4>
@@ -239,7 +239,7 @@
         </section>
         <section class="foodSection">
             <div class="foodSection__donut">
-                <img src="./Img/food-donut.svg" alt="donut" />
+                <img src="./assets/Img/food-donut.svg" alt="donut" />
             </div>
             <div class="foodSection__body">
                 <div class="foodSection__body__title">
@@ -249,7 +249,7 @@
                 <div class="foodSection__body__swiper swiper">
                     <div class="swiper-wrapper">
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/marmalade-selection-food.jpg" alt="Eggs & bacon">
+                            <img src="./assets/Img/marmalade-selection-food.jpg" alt="Eggs & bacon">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Eggs & Bacon</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -264,7 +264,7 @@
                             </div>
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/fruit-parfait-food.jpg" alt="Fruit parfait">
+                            <img src="./assets/Img/fruit-parfait-food.jpg" alt="Fruit parfait">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Fruit Parfait</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -279,7 +279,7 @@
                             </div>
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/tea-coffee-food.jpg" alt="Tea or coffee">
+                            <img src="./assets/Img/tea-coffee-food.jpg" alt="Tea or coffee">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Tea or Coffee</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -294,7 +294,7 @@
                             </div>
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/marmalade-selection-food.jpg" alt="Marmalade selection">
+                            <img src="./assets/Img/marmalade-selection-food.jpg" alt="Marmalade selection">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Marmalade Selection</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -309,7 +309,7 @@
                             </div>
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/chia-oatmeal-food.jpg" alt="Chia oatmeal">
+                            <img src="./assets/Img/chia-oatmeal-food.jpg" alt="Chia oatmeal">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Chia Oatmeal</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -324,7 +324,7 @@
                             </div>
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/cheese-board-food.jpg" alt="Cheese plate">
+                            <img src="./assets/Img/cheese-board-food.jpg" alt="Cheese plate">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Cheese Plate</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -339,7 +339,7 @@
                             </div>
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/marmalade-selection-food.jpg" alt="Eggs & bacon">
+                            <img src="./assets/Img/marmalade-selection-food.jpg" alt="Eggs & bacon">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Eggs & Bacon</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -354,7 +354,7 @@
                             </div>
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/fruit-parfait-food.jpg" alt="Fruit parfait">
+                            <img src="./assets/Img/fruit-parfait-food.jpg" alt="Fruit parfait">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Fruit Parfait</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -369,7 +369,7 @@
                             </div>
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/tea-coffee-food.jpg" alt="Tea or coffee">
+                            <img src="./assets/Img/tea-coffee-food.jpg" alt="Tea or coffee">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Tea or Coffee</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -384,7 +384,7 @@
                             </div>
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/marmalade-selection-food.jpg" alt="Marmalade selection">
+                            <img src="./assets/Img/marmalade-selection-food.jpg" alt="Marmalade selection">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Marmalade Selection</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -400,7 +400,7 @@
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
 
-                            <img src="./Img/chia-oatmeal-food.jpg" alt="Chia oatmeal">
+                            <img src="./assets/Img/chia-oatmeal-food.jpg" alt="Chia oatmeal">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Chia Oatmeal</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -415,7 +415,7 @@
                             </div>
                         </div>
                         <div class="foodSection__body__swiper__item swiper-slide">
-                            <img src="./Img/cheese-board-food.jpg" alt="Cheese plate">
+                            <img src="./assets/Img/cheese-board-food.jpg" alt="Cheese plate">
                             <div class="foodSection__body__swiper__item__text">
                                 <h4>Cheese Plate</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -457,13 +457,13 @@
             <div class="swiper imagesSection__swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide imagesSection__swiper__item">
-                        <img src="./Img/food/cake-images.jpg" alt="Cake">
+                        <img src="./assets/Img/food/cake-images.jpg" alt="Cake">
                     </div>
                     <div class="swiper-slide imagesSection__swiper__item">
-                        <img src="./Img/food/salad-images.jpg" alt="Cake">
+                        <img src="./assets/Img/food/salad-images.jpg" alt="Cake">
                     </div>
                     <div class="swiper-slide imagesSection__swiper__item">
-                        <img src="./Img/food/cheesee-board-images.jpg" alt="Cake">
+                        <img src="./assets/Img/food/cheesee-board-images.jpg" alt="Cake">
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -472,7 +472,7 @@
         </section>
         <section class="infoSection">
             <div class="infoSection__item">
-                <img src="./Img/rocket-info.svg" alt="Rocket">
+                <img src="./assets/Img/rocket-info.svg" alt="Rocket">
                 <div class="infoSection__item__number">
                     <h3>84k<span>+</span></h3>
 
@@ -480,7 +480,7 @@
                 <p>Projects are Completed</p>
             </div>
             <div class="infoSection__item">
-                <img src="./Img/aboutUs-strong.svg" alt="Active backers">
+                <img src="./assets/Img/aboutUs-strong.svg" alt="Active backers">
                 <div class="infoSection__item__number">
                     <h3>10M<span>+</span></h3>
 
@@ -488,7 +488,7 @@
                 <p>Active Backers Around World</p>
             </div>
             <div class="infoSection__item">
-                <img src="./Img/graph-info.svg" alt="Categories served">
+                <img src="./assets/Img/graph-info.svg" alt="Categories served">
                 <div class="infoSection__item__number">
                     <h3>02k<span>+</span></h3>
 
@@ -496,7 +496,7 @@
                 <p>Categories Served</p>
             </div>
             <div class="infoSection__item">
-                <img src="./Img/book-info.svg" alt="ide raised funds">
+                <img src="./assets/Img/book-info.svg" alt="ide raised funds">
                 <div class="infoSection__item__number">
                     <h3>100M<span>+</span></h3>
 

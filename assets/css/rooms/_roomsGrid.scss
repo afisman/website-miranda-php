@@ -9,8 +9,12 @@
 
     &__swiper {
         .swiper-wrapper {
-            margin-bottom: 4rem;
+            margin-bottom: 8rem;
         }
+
+        // .swiper-pagination {
+        //     transform: translateY(2rem);
+        // }
 
         .swiper-pagination-bullet {
             width: 2rem;
@@ -34,7 +38,7 @@
             position: absolute;
             bottom: 0.25%;
             top: auto;
-            margin-top: 0;
+            margin-top: 2rem;
             height: auto;
 
             &:after {
@@ -45,6 +49,7 @@
         }
 
         .swiper-slide {
+            margin-bottom: 2rem;
 
             img {
                 width: 100%;
@@ -130,12 +135,12 @@
             }
 
             .swiper-button-next {
-                right: 40%;
+                right: 35%;
                 bottom: 0.75%;
             }
 
             .swiper-button-prev {
-                left: 40%;
+                left: 35%;
                 bottom: 0.75%;
             }
 

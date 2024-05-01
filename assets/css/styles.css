@@ -832,6 +832,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
   letter-spacing: -0.16rem;
   color: #222;
 }
+.foodSection__body__swiper .swiper-wrapper {
+  transform: none !important;
+}
 .foodSection__body__swiper .swiper-slide {
   display: flex;
   padding: 0;
@@ -1588,7 +1591,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   position: relative;
 }
 .RoomsGridSection__swiper .swiper-wrapper {
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 .RoomsGridSection__swiper .swiper-pagination-bullet {
   width: 2rem;
@@ -1610,7 +1613,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   position: absolute;
   bottom: 0.25%;
   top: auto;
-  margin-top: 0;
+  margin-top: 2rem;
   height: auto;
 }
 .RoomsGridSection__swiper .swiper-button-next:after,
@@ -1618,6 +1621,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
   color: #000;
   font-size: 1rem;
   line-height: 2rem;
+}
+.RoomsGridSection__swiper .swiper-slide {
+  margin-bottom: 2rem;
 }
 .RoomsGridSection__swiper .swiper-slide img {
   width: 100%;
@@ -1686,11 +1692,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
     transform: scale(1.6);
   }
   .RoomsGridSection__swiper .swiper-button-next {
-    right: 40%;
+    right: 35%;
     bottom: 0.75%;
   }
   .RoomsGridSection__swiper .swiper-button-prev {
-    left: 40%;
+    left: 35%;
     bottom: 0.75%;
   }
   .RoomsGridSection__swiper__text__price h5:hover {

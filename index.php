@@ -9,10 +9,8 @@ $allRoomsResult = $conn->query($roomsQuery);
 $data = array();
 
 if ($allRoomsResult->num_rows > 0) {
-  // output data of each row
   while($row = $allRoomsResult->fetch_assoc()) {
     $data[] = $row;
-    echo $row['photos'];
   }
 } else {
   echo "0 results";

@@ -11,7 +11,6 @@ $offerData = array();
 if ($allRoomsResult->num_rows > 0) {
   while($row = $allRoomsResult->fetch_assoc()) {
     $offerData[] = $row;
-    echo $row['photos'];
   }
 } else {
   echo "0 results";
