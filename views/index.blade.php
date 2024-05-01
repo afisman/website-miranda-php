@@ -11,10 +11,10 @@
             </div>
         </section>
         <section class="calendarSection">
-            <form action="" class="calendarSection__form">
+            <form action="roomsList.php" class="calendarSection__form" method="GET">
                 <div class="calendarSection__form__date">
                     <label for="arrival">Arrival Date
-                        <input type="date" id="arrival" name="arrival" placeholder="24th march 2020"
+                        <input type="date" id="arrival" name="arrival" 
                             onfocus="this.showPicker()">
                     </label>
                 </div>
@@ -24,7 +24,7 @@
                     </label>
                 </div>
                 <button type="submit" class="calendarSection__form__button">
-                    <a href="./roomsList.php">CHECK AVAILABILITY</a>
+                    CHECK AVAILABILITY
                 </button>
             </form>
         </section>
