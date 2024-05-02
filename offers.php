@@ -1,9 +1,9 @@
 <?php
-    require_once(__DIR__ .'/helpers/renderTemplate.php');
-    require_once(__DIR__ .'/helpers/connectionSQL.php');
-    require_once(__DIR__ .'/helpers/queries/roomsQueries.php');
+require_once(__DIR__ .'/helpers/renderTemplate.php');
+require_once(__DIR__ .'/helpers/connectionSQL.php');
+require_once(__DIR__ .'/helpers/queries/roomsQueries.php');
 
-    $roomsQuery = $offerRoomsQuery;
+$roomsQuery = $offerRoomsQuery;
 
 $allRoomsResult = $conn->query($roomsQuery);
 $offerData = array();

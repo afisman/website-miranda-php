@@ -237,9 +237,9 @@
                         </div>
 
                     </div>
-                    <div class="OffersList__item__container__btn">
+                    <a class="OffersList__item__container__btn" href="./roomDetails.php?id={{$room['_id']}}">
                         <button>BOOK NOW</button>
-                    </div>
+                    </a>
                 </div>
             </div>
             @endforeach

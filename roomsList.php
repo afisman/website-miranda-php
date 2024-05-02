@@ -21,8 +21,6 @@
     } else {
         echo "0 results";
     }
-
-    print_r(sizeof($roomsListData));
     $templateName = 'roomsList';
     $values = ['title' => 'Rooms', 'rooms' => $roomsListData];
     renderTemplate($templateName, $values);
