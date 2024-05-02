@@ -112,7 +112,7 @@
  </section>
  <section class="AboutRestaurant">
  <div class="AboutRestaurant__img">
- <img src="./Img/restaurant-about.jpg" alt="Reataurant">
+ <img src="./assets/Img/restaurant-about.jpg" alt="Reataurant">
  </div>
  <div class="AboutRestaurant__text">
  <h5>RESTAURANT</h5>
@@ -132,7 +132,7 @@
  <div class="swiper-wrapper">
  <div class="AboutFacilities__swiper__item swiper-slide">
  <div class="AboutFacilities__swiper__item__title">
- <img src="./Img/rating-features.svg" alt="Rating features">
+ <img src="./assets/Img/rating-features.svg" alt="Rating features">
  <h2>01</h2>
  </div>
  <h4>Have High Rating</h4>
@@ -141,7 +141,7 @@
  </div>
  <div class="AboutFacilities__swiper__item swiper-slide">
  <div class="AboutFacilities__swiper__item__title">
- <img src="./Img/quietHours-features.svg" alt="Quiet hours ">
+ <img src="./assets/Img/quietHours-features.svg" alt="Quiet hours ">
  <h2>02</h2>
  </div>
  <h4>Quiet Hours</h4>
@@ -150,7 +150,7 @@
  </div>
  <div class="AboutFacilities__swiper__item swiper-slide">
  <div class="AboutFacilities__swiper__item__title">
- <img src="./Img/location-features.svg" alt="Location ">
+ <img src="./assets/Img/location-features.svg" alt="Location ">
  <h2>03</h2>
  </div>
  <h4>Best Locations</h4>
@@ -159,7 +159,7 @@
  </div>
  <div class="AboutFacilities__swiper__item swiper-slide">
  <div class="AboutFacilities__swiper__item__title">
- <img src="./Img/cancellation-features.svg" alt="Cancellation ">
+ <img src="./assets/Img/cancellation-features.svg" alt="Cancellation ">
  <h2>04</h2>
  </div>
  <h4>Free Cancellation</h4>
@@ -168,7 +168,7 @@
  </div>
  <div class="AboutFacilities__swiper__item swiper-slide">
  <div class="AboutFacilities__swiper__item__title">
- <img src="./Img/payment-features.svg" alt="Payment Options">
+ <img src="./assets/Img/payment-features.svg" alt="Payment Options">
  <h2>05</h2>
  </div>
  <h4>Payment Options</h4>
@@ -177,7 +177,7 @@
  </div>
  <div class="AboutFacilities__swiper__item swiper-slide">
  <div class="AboutFacilities__swiper__item__title">
- <img src="./Img/specialOffers-features.svg" alt="Special Offers ">
+ <img src="./assets/Img/specialOffers-features.svg" alt="Special Offers ">
  <h2>06</h2>
  </div>
  <h4>Special Offers</h4>
@@ -314,10 +314,10 @@
  <div class="AboutCounter__swiper swiper">
  <div class="swiper-wrapper">
  <div class="swiper-slide AboutCounter__swiper__item">
- <img src="./Img/about-hotel1.jpg" alt="Hotel pool">
+ <img src="./assets/Img/about-hotel1.jpg" alt="Hotel pool">
  </div>
  <div class="swiper-slide AboutCounter__swiper__item">
- <img src="./Img/about-hotel2.jpg" alt="Hotel facade">
+ <img src="./assets/Img/about-hotel2.jpg" alt="Hotel facade">
  </div>
  </div>
  <div class="swiper-pagination"></div>

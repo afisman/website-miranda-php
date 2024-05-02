@@ -2,8 +2,8 @@ const offersSwiper = new Swiper('.OffersPopular__slider', {
     slidesPerView: 1,
     centeredSlides: true,
     navigation: {
-        nextEl: ".buttons-menu__next",
-        prevEl: ".buttons-menu__prev",
+        nextEl: ".buttons-offer__next",
+        prevEl: ".buttons-offer__prev",
     },
 
     breakpoints: {

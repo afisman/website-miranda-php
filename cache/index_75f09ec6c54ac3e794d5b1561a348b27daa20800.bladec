@@ -13,14 +13,14 @@
  <section class="calendarSection">
  <form action="roomsList.php" class="calendarSection__form" method="GET">
  <div class="calendarSection__form__date">
- <label for="checkIn">Arrival Date
- <input type="date" id="checkIn" name="checkIn" 
+ <label for="arrival">Arrival Date
+ <input type="date" id="arrival" name="arrival" 
  onfocus="this.showPicker()">
  </label>
  </div>
  <div class="calendarSection__form__date">
- <label for="checkOut">LeDeparture Date
- <input type="date" id="checkOut" name="checkOut" onfocus="this.showPicker()">
+ <label for="departure">LeDeparture Date
+ <input type="date" id="departure" name="departure" onfocus="this.showPicker()">
  </label>
  </div>
  <button type="submit" class="calendarSection__form__button">
@@ -70,7 +70,7 @@
  foreach($__currentLoopData as $room): $loop = $this->incrementLoopIndices();  ?>
  <div class="swiper-slide">
  <div class="roomSection__swiper__icons">
- <?php if(in_array('Single Bed', json_decode($room['amenities'], true))): ?>
+ <?php if(in_array('Single Bed', json_decode($room['amenities'], true)) || in_array('Double Bed', json_decode($room['amenities'], true))): ?>
  <svg width="12" height="9" viewBox="0 0 12 9" fill="none"
  xmlns="http://www.w3.org/2000/svg">
  <path
@@ -86,7 +86,7 @@
  fill="#222222" />
  </svg>
  <?php endif; ?>
- <?php if(in_array('Shop Near', json_decode($room['amenities'], true))): ?>
+ <?php if(in_array('Shop Near', json_decode($room['amenities'], true)) || in_array('Parking', json_decode($room['amenities'], true))): ?>
  <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
  xmlns="http://www.w3.org/2000/svg">
  <path fill-rule="evenodd" clip-rule="evenodd"
@@ -102,7 +102,7 @@
  fill="#222222" />
  </svg>
  <?php endif; ?>
- <?php if(in_array('Gym', json_decode($room['amenities'], true))): ?>
+ <?php if(in_array('Gym', json_decode($room['amenities'], true))|| in_array('Terrace', json_decode($room['amenities'], true))): ?>
  <svg width="14" height="11" viewBox="0 0 14 11" fill="none"
  xmlns="http://www.w3.org/2000/svg">
  <path
@@ -118,7 +118,7 @@
  stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
  </svg>
  <?php endif; ?>
- <?php if(in_array('Mini Bar', json_decode($room['amenities'], true))): ?>
+ <?php if(in_array('Mini Bar', json_decode($room['amenities'], true)) || in_array('Kitchen', json_decode($room['amenities'], true))): ?>
  <svg width="12" height="15" viewBox="0 0 12 15" fill="none"
  xmlns="http://www.w3.org/2000/svg">
  <path

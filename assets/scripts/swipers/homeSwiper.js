@@ -34,8 +34,8 @@ const menuSwiper = new Swiper('.foodSection__body__swiper', {
     navigation: {
         nextEl: ".buttons-menu__next",
         prevEl: ".buttons-menu__prev",
-        lockClass: '.swiper-button-lock',
-    },
+
+    }, lockClass: 'none',
     grid: {
         rows: 3,
         fill: "row",

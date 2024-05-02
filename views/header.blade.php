@@ -19,10 +19,10 @@
 
                 <div class="navbar__right">
                     <button class="navbar__right__button">
-                        <img src="./Img/header-person.svg" alt="">
+                        <img src="./assets/Img/header-person.svg" alt="">
                     </button>
                     <button class="navbar__right__button">
-                        <img src="./Img/header-mag-glass.svg" alt="">
+                        <img src="./assets/Img/header-mag-glass.svg" alt="">
                     </button>
 
                 </div>

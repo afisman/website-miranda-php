@@ -69,7 +69,7 @@
                     @foreach($rooms as $room)
                     <div class="swiper-slide">
                         <div class="roomSection__swiper__icons">
-                            @if(in_array('Single Bed', json_decode($room['amenities'], true)))
+                            @if(in_array('Single Bed', json_decode($room['amenities'], true)) || in_array('Double Bed', json_decode($room['amenities'], true)))
                             <svg width="12" height="9" viewBox="0 0 12 9" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -85,7 +85,7 @@
                                     fill="#222222" />
                             </svg>
                             @endif
-                            @if(in_array('Shop Near', json_decode($room['amenities'], true)))
+                            @if(in_array('Shop Near', json_decode($room['amenities'], true)) || in_array('Parking', json_decode($room['amenities'], true)))
                             <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -101,7 +101,7 @@
                                     fill="#222222" />
                             </svg>
                             @endif
-                            @if(in_array('Gym', json_decode($room['amenities'], true)))
+                            @if(in_array('Gym', json_decode($room['amenities'], true))|| in_array('Terrace', json_decode($room['amenities'], true)))
                             <svg width="14" height="11" viewBox="0 0 14 11" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -117,7 +117,7 @@
                                     stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                             @endif
-                            @if(in_array('Mini Bar', json_decode($room['amenities'], true)))
+                            @if(in_array('Mini Bar', json_decode($room['amenities'], true)) || in_array('Kitchen', json_decode($room['amenities'], true)))
                             <svg width="12" height="15" viewBox="0 0 12 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path

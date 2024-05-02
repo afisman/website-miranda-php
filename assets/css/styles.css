@@ -925,6 +925,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
     top: 10%;
     right: 10%;
   }
+  .foodSection__body .buttons-menu .swiper-button-lock {
+    display: block;
+  }
 }
 .infoSection {
   background-color: #222;
@@ -1957,6 +1960,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .OffersPopular__slider .swiper-wrapper {
   margin-bottom: 4rem;
+  height: auto;
 }
 .OffersPopular__slider .swiper-button-prev,
 .OffersPopular__slider .swiper-button-next {
@@ -1973,6 +1977,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .OffersPopular__slider .swiper-slide {
   background-color: #fff;
+  height: auto;
 }
 .OffersPopular__slider .swiper-slide img {
   width: 100%;
@@ -2035,10 +2040,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 @media screen and (min-width: 1000px) {
   .OffersPopular__slider {
     width: 100%;
-  }
-  .OffersPopular__slider .swiper-button-prev,
-  .OffersPopular__slider .swiper-button-next {
-    display: none;
   }
   .OffersPopular__slider__icons {
     padding: 1.2rem;
@@ -2414,6 +2415,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .OffersPopular__slider .swiper-wrapper {
   margin-bottom: 4rem;
+  height: auto;
 }
 .OffersPopular__slider .swiper-button-prev,
 .OffersPopular__slider .swiper-button-next {
@@ -2430,6 +2432,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .OffersPopular__slider .swiper-slide {
   background-color: #fff;
+  height: auto;
 }
 .OffersPopular__slider .swiper-slide img {
   width: 100%;
@@ -2492,10 +2495,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 @media screen and (min-width: 1000px) {
   .OffersPopular__slider {
     width: 100%;
-  }
-  .OffersPopular__slider .swiper-button-prev,
-  .OffersPopular__slider .swiper-button-next {
-    display: none;
   }
   .OffersPopular__slider__icons {
     padding: 1.2rem;

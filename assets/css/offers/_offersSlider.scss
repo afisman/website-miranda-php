@@ -33,6 +33,7 @@
 
         .swiper-wrapper {
             margin-bottom: 4rem;
+            height: auto;
         }
 
         .swiper-button-prev,
@@ -49,16 +50,14 @@
             }
         }
 
-
-
         .swiper-slide {
             background-color: #fff;
+            height: auto;
 
             img {
                 width: 100%;
                 height: auto;
             }
-
         }
 
         &__icons {
@@ -128,10 +127,10 @@
         &__slider {
             width: 100%;
 
-            .swiper-button-prev,
-            .swiper-button-next {
-                display: none;
-            }
+            // .swiper-button-prev,
+            // .swiper-button-next {
+            //     display: none;
+            // }
 
             &__icons {
                 padding: 1.2rem;
