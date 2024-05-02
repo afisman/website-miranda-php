@@ -182,7 +182,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("../../Hotel-Miranda/Img/background-img.png");
+  background-image: url("/assets/Img/background-img.png");
 }
 .footer__sections {
   max-width: 1170px;
