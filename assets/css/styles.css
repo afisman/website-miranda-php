@@ -2032,6 +2032,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   color: #BDBDBD;
   padding-left: 1rem;
 }
+.OffersPopular__slider__text__price h5 a {
+  text-decoration: none;
+  color: #BDBDBD;
+  padding-left: 1rem;
+}
 
 .popularDark {
   background-color: #222;
@@ -2484,6 +2489,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   padding-right: 1rem;
 }
 .OffersPopular__slider__text__price h5 {
+  color: #BDBDBD;
+  padding-left: 1rem;
+}
+.OffersPopular__slider__text__price h5 a {
+  text-decoration: none;
   color: #BDBDBD;
   padding-left: 1rem;
 }

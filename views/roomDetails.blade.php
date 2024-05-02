@@ -319,7 +319,7 @@
                             fill="white" />
                     </svg>
                 </div>
-                <img src="./Img/aboutUs-hotel.jpg" alt="Founder">
+                <img src="./assets/Img/aboutUs-hotel.jpg" alt="Founder">
                 <h2>Alejandro Fisman</h2>
                 <h3>FULLSTACK DEVELOPER</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -393,7 +393,7 @@
                             <p>{{$offerRoom['description']}}</p>
                             <div class="OffersPopular__slider__text__price">
                                 <h4>${{calculateRate($offerRoom['rate'], $offerRoom['discount'])/100}}/Night</h4>
-                                <h5>Booking Now</h5>
+                                <h5><a href="./roomDetails.php?id={{$offerRoom['_id']}}">Booking Now</a></h5>
                             </div>
                         </div>
                     </div>
