@@ -1,5 +1,5 @@
 <?php
-require_once(__DIR__ .'/helpers/renderTemplate.php');
+require_once(__DIR__ .'/helpers/setup.php');
 require_once(__DIR__ .'/helpers/connectionSQL.php');
 require_once(__DIR__ .'/helpers/queries/roomsQueries.php');
 
@@ -17,5 +17,5 @@ if ($allRoomsResult->num_rows > 0) {
 }
     $templateName = 'offers';
     $values = ['title' => 'Offers', 'rooms' => $offerData];
-    renderTemplate($templateName, $values);
+    renderTemplate('offers', $values);
 ?>

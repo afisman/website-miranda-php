@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
     require_once(__DIR__ .'/setup.php');
     require_once(__DIR__ .'/rateCalculator.php');
     
@@ -6,4 +6,4 @@
         global $blade;
         echo $blade->run($templateName, $values);
     }
-?>
+?> -->

@@ -1,5 +1,5 @@
 <?php
-    require_once(__DIR__ .'/helpers/renderTemplate.php');
+    require_once(__DIR__ .'/helpers/setup.php');
     require_once(__DIR__ .'/helpers/connectionSQL.php');
     require_once(__DIR__ .'/helpers/queries/availableRooms.php');
 
@@ -21,7 +21,6 @@
     } else {
         echo "0 results";
     }
-    $templateName = 'roomsList';
     $values = ['title' => 'Rooms', 'rooms' => $roomsListData];
-    renderTemplate($templateName, $values);
+    renderTemplate('roomsList', $values);
 ?>
