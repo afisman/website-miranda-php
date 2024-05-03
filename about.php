@@ -1,6 +1,5 @@
 <?php
-    require_once(__DIR__ .'/helpers/renderTemplate.php');
-    $templateName = 'about';
+    require_once(__DIR__ .'/helpers/setup.php');
     $values = ['title' => 'About'];
-    renderTemplate($templateName, $values);
+    renderTemplate('about', $values);
 ?>
