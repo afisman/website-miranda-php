@@ -5,8 +5,8 @@
 
 
     $bookingsQuery = $allBookingsQuery;
-    $checkIn = $_GET['checkOut'];
-    $checkOut = $_GET['checkIn'];
+    $checkIn = $_GET['checkIn'];
+    $checkOut = $_GET['checkOut'];
 
     $stmt = $conn->prepare($allBookingsQuery);
     $stmt->bind_param("ss", $checkIn, $checkOut);

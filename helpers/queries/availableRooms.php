@@ -16,7 +16,7 @@ LEFT JOIN (
         room,
         COUNT(*) AS bookings_count
     FROM booking
-    WHERE NOT (check_in >= ? OR check_out < ?)
+    WHERE (check_in <= ? OR check_out > ?)
     GROUP BY room
 ) AS booked_rooms ON room._id = booked_rooms.room
 LEFT JOIN (
