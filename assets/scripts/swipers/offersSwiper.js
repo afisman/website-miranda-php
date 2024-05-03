@@ -10,7 +10,6 @@ const offersSwiper = new Swiper('.OffersPopular__slider', {
         1000: {
             slidesPerView: 3,
             spaceBetween: 30,
-
         }
     }
 
@@ -26,3 +25,4 @@ window.onload = function () {
         offersSwiper.update()
     }
 }
+
