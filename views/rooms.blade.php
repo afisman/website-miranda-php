@@ -85,7 +85,7 @@
                             <h3>{{$room['room_type']}}</h3>
                             <p>{{$room['description']}}</p>
                             <div class="RoomsGridSection__swiper__text__price">
-                                <h4>${{round(calculateRate($room['rate'], $room['discount'])/100)}}/Night</h4>
+                                <h4>${{calculateRate($room['rate'], $room['discount'])}}/Night</h4>
                                 <h5><a href="./roomDetails.php?id={{$room['_id']}}">Book Now</a></h5>
                             </div>
                         </div>

@@ -88,7 +88,7 @@
                             </div>
                         </div>
                         <div class="RoomsListSection__swiper__price">
-                            <h4>${{round(calculateRate($room['rate'], $room['discount'])/100)}}<p>/Night</p>
+                            <h4>${{calculateRate($room['rate'], $room['discount'])}}<p>/Night</p>
                             </h4>
                             <h5><a href="./roomDetails.php?id={{$room['_id']}}">Book Now</a></h5>
                         </div>

@@ -24,7 +24,7 @@
                             <h5>{{$room['room_type']}}</h5>
                             <h2>{{$room['room_number']}}</h2>
                         </div>
-                        <h3>${{calculateRate($room['rate'], $room['discount'])/100}}<p>/Night</p>
+                        <h3>${{calculateRate($room['rate'], $room['discount'])}}<p>/Night</p>
                         </h3>
                     </div>
                     <img src={{json_decode($room['photos'])[0]}} alt="">
@@ -447,7 +447,7 @@
                             <h3>{{$offerRoom['room_type']}}</h3>
                             <p>{{$offerRoom['description']}}</p>
                             <div class="OffersPopular__slider__text__price">
-                                <h4>${{calculateRate($offerRoom['rate'], $offerRoom['discount'])/100}}/Night</h4>
+                                <h4>${{calculateRate($offerRoom['rate'], $offerRoom['discount'])}}/Night</h4>
                                 <h5><a href="./roomDetails.php?id={{$offerRoom['_id']}}">Booking Now</a></h5>
                             </div>
                         </div>

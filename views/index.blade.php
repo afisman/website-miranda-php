@@ -133,7 +133,7 @@
                                 <h4>{{$room['room_type']}}</h4>
                                 <p>{{$room['description']}}</p>
                             </div>
-                            <h3>{{calculateRate($room['rate'], $room['discount'])/100}}<span>/Night</span></h3>
+                            <h3>{{calculateRate($room['rate'], $room['discount'])}}<span>/Night</span></h3>
                         </div>
                     </div>
                     @endforeach
