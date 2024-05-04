@@ -9,13 +9,6 @@ $roomsData = array();
 
 $populatedArray = populateArray($allRoomsResult, $roomsData);
 
-// if ($allRoomsResult->num_rows > 0) {
-//     while($row = $allRoomsResult->fetch_assoc()) {
-//         $roomsData[] = $row;
-//     }
-// } else {
-//     echo "0 results";
-// }
 $values = ['title' => 'Rooms', 'rooms' => $populatedArray];
 renderTemplate('rooms', $values);
 ?>

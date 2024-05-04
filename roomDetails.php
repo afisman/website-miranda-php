@@ -2,6 +2,7 @@
 require_once(__DIR__ .'/helpers/setup.php');
 require_once(__DIR__ .'/helpers/connectionSQL.php');
 require_once(__DIR__ .'/helpers/queries/roomsQueries.php');
+require_once(__DIR__ .'/helpers/arrayHelpers.php');
 
 $roomId = $_GET['id'];
 
@@ -15,13 +16,8 @@ $roomsQuery = $offerRoomsQuery;
 $allRoomsResult = $conn->query($roomsQuery);
 $offerData = array();
 
-if ($allRoomsResult->num_rows > 0) {
-    while($row = $allRoomsResult->fetch_assoc()) {
-        $offerData[] = $row;
-    }
-} else {
-    echo "0 results";
-}
-$values = ['title' => 'Room Details', 'room'=>$oneRoom, 'offerRooms' => $offerData];
+$populatedArray = populateArray($allRoomsResult, $offerData);
+
+$values = ['title' => 'Room Details', 'room'=>$oneRoom, 'offerRooms' => $populatedArray];
 renderTemplate('roomDetails', $values);
 ?>

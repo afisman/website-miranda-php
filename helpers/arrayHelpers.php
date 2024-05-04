@@ -7,7 +7,6 @@ function populateArray($data, $arrayToPopulate) {
 } else {
     echo "0 results";
 }
-print_r($arrayToPopulate);
 return $arrayToPopulate;
 }
 ?>
