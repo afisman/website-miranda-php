@@ -1,11 +1,9 @@
 <?php
-    require_once(__DIR__ .'/helpers/setup.php');
-    require_once(__DIR__ .'/helpers/connectionSQL.php');
-    require_once(__DIR__ .'/helpers/queries/roomsQueries.php');
+require_once(__DIR__ .'/helpers/setup.php');
+require_once(__DIR__ .'/helpers/connectionSQL.php');
+require_once(__DIR__ .'/helpers/queries/roomsQueries.php');
 
-$roomsQuery = $allRoomsQuery;
-
-$allRoomsResult = $conn->query($roomsQuery);
+$allRoomsResult = $conn->query($allRoomsQuery);
 $data = array();
 
 if ($allRoomsResult->num_rows > 0) {
@@ -16,7 +14,7 @@ if ($allRoomsResult->num_rows > 0) {
   echo "0 results";
 }
 
-    $values = ['title' => 'Home', 'rooms' => $data];
-    renderTemplate('index', $values);
+$values = ['title' => 'Home', 'rooms' => $data];
+renderTemplate('index', $values);
 ?>
 
