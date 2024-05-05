@@ -2,7 +2,7 @@
 require_once(__DIR__ .'/helpers/setup.php');
 require_once(__DIR__ .'/helpers/connectionSQL.php');
 require_once(__DIR__ .'/helpers/queries/availableRooms.php');
-require_once(__DIR__ .'/helpers/arrayHelpers.php');
+require_once(__DIR__ .'/helpers/formatRoom.php');
 
 $checkIn = $_GET['departure'];
 $checkOut = $_GET['arrival'];
