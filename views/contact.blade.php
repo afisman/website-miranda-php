@@ -85,7 +85,7 @@
             </div>
         </section>
         <section class="ContactForm">
-            <form action="">
+            <form  method="POST">
                 <div class="ContactForm__input">
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
                         width="14" height="14" x="0" y="0" viewBox="0 0 512 512"
@@ -96,7 +96,7 @@
                                 fill="#bead8e" opacity="1" data-original="#000000" class="hovered-path"></path>
                         </g>
                     </svg>
-                    <input type="text" name="name" placeholder="Your full name" />
+                    <input type="text" name="name" placeholder="Your full name" required/>
                 </div>
                 <div class="ContactForm__input">
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -108,7 +108,7 @@
                                 fill="#bead8e" opacity="1" data-original="#000000" class=""></path>
                         </g>
                     </svg>
-                    <input type="text" name="phone" placeholder=" Add phone number">
+                    <input type="text" name="phone" placeholder=" Add phone number" required>
                 </div>
                 <div class="ContactForm__input">
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -120,7 +120,7 @@
                                 fill="#bead8e" opacity="1" data-original="#000000" class=""></path>
                         </g>
                     </svg>
-                    <input type="email" name="email" placeholder=" Enter email address">
+                    <input type="email" name="email" placeholder=" Enter email address" required>
                 </div>
                 <div class="ContactForm__input">
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -138,7 +138,7 @@
                                 fill="#bead8e" opacity="1" data-original="#000000" class=""></path>
                         </g>
                     </svg>
-                    <input type="text" name="subject" placeholder=" Enter subject">
+                    <input type="text" name="subject" placeholder=" Enter subject" required>
                 </div>
                 <div class="ContactForm__textarea">
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -150,7 +150,7 @@
                                 fill="#bead8e" opacity="1" data-original="#000000" class=""></path>
                         </g>
                     </svg>
-                    <textarea type="area" name="message" rows="8" placeholder=" Enter message"></textarea>
+                    <textarea type="area" name="message" rows="8" placeholder=" Enter message" required></textarea>
                 </div>
                 <button type="submit" class="ContactForm__button">SEND</button>
             </form>

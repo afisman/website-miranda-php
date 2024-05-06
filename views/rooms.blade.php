@@ -82,7 +82,7 @@
                             @endif
                         </div>
                         <div class="RoomsGridSection__swiper__text">
-                            <h3>{{$room['room_type']}}</h3>
+                            <h3>{{$room['type']}}</h3>
                             <p>{{$room['description']}}</p>
                             <div class="RoomsGridSection__swiper__text__price">
                                 <h4>${{$room['price']}}/Night</h4>

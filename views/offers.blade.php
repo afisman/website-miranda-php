@@ -19,17 +19,17 @@
         <section class="OffersList">
             @foreach($rooms as $room)
             <div class="OffersList__item">
-                <img src={{json_decode($room['photos'])[0]}} alt="Room offer">
+                <img src={{$room['photos']}} alt="Room offer">
                 <div class="OffersList__item__container">
                     <div class="OffersList__item__container__description">
                         <div class="OffersList__item__container__description__title">
-                            <h4>{{$room['room_type']}}</h4>
-                            <h2>{{$room['room_number']}}</h2>
+                            <h4>{{$room['type']}}</h4>
+                            <h2>{{$room['name']}}</h2>
                         </div>
                         <div class="OffersList__item__container__description__price">
-                            <h5>{{round($room['rate'])/100}}<p>/Night</p>
+                            <h5>{{$room['rate']/100}}<p>/Night</p>
                             </h5>
-                            <h4>{{calculateRate($room['rate'], $room['discount'])}}<p>/Night</p>
+                            <h4>{{$room['price']}}<p>/Night</p>
                             </h4>
                         </div>
                     </div>
@@ -253,7 +253,7 @@
                 <div class="swiper-wrapper">
                     @foreach($rooms as $room)
                     <div class="swiper-slide">
-                        <img src={{json_decode($room['photos'])[0]}} alt="Luxury room">
+                        <img src={{$room['photos']}} alt="Luxury room">
                         <div class="OffersPopular__slider__icons">
                             <svg width="12" height="9" viewBox="0 0 12 9" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -300,10 +300,10 @@
                             </svg>
                         </div>
                         <div class="OffersPopular__slider__text">
-                            <h3>Minimal Duplex Room</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+                            <h3>{{$room['name']}}</h3>
+                            <p>{{$room['description']}}</p>
                             <div class="OffersPopular__slider__text__price">
-                                <h4>$345/Night</h4>
+                                <h4>{{$room['price']}}/Night</h4>
                                 <h5>Booking Now</h5>
                             </div>
                         </div>

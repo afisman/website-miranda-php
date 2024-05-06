@@ -9,7 +9,7 @@ $roomId = $_GET['id'];
 $stmt = $conn->prepare($oneRoomQuery);
 $stmt->bind_param('i', $roomId);
 $stmt->execute();
-$oneRoom = $stmt->get_result()->fetch_assoc();;
+$oneRoom = $stmt->get_result()->fetch_assoc();
 
 $roomsQuery = $offerRoomsQuery;
 
