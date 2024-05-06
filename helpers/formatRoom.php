@@ -6,7 +6,6 @@ function formatRoom($unformattedRoom) {
         'type' => $unformattedRoom['room_type'],
         'name' => $unformattedRoom['room_number'],
         'offer' => $unformattedRoom['offer'],
-        'floor' => $unformattedRoom['room_floor'],
         'rate' => $unformattedRoom['rate'],
         'price' => calculateRate($unformattedRoom['rate'], $unformattedRoom['discount']),
         'amenities' => json_decode($unformattedRoom['amenities']),

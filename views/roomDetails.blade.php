@@ -27,17 +27,17 @@
                         <h3>${{$room['price']}}<p>/Night</p>
                         </h3>
                     </div>
-                    <img src={{json_decode($room['photos'])[0]}} alt="">
+                    <img src={{$room['photos']}} alt="">
                 </div>
-                <form class="roomInfo__form">
+                <form class="roomInfo__form" method="POST">
                     <h4>Check Availability</h4>
                     <div class="roomInfo__form__item">
                         <label for="arrival">Check In</label>
-                        <input type="date" id="arrival" name="arrival" value="2018-07-22">
+                        <input type="date" id="arrival" name="arrival" value="2024-07-22">
                     </div>
                     <div class="roomInfo__form__item">
                         <label for="departure">Check Out</label>
-                        <input type="date" id="departure" name="departure" value="2018-08-22">
+                        <input type="date" id="departure" name="departure" value="2024-08-22">
                     </div>
                     <div class="roomInfo__form__item">
                         <label for="name">Name</label>
@@ -50,6 +50,10 @@
                     <div class="roomInfo__form__item">
                         <label for="phone">Phone Number</label>
                         <input type="number" id="phone" name="phone" placeholder="Enter phone number">
+                    </div>
+                    <div class="roomInfo__form__item">
+                        <label for="phone">Special request</label>
+                        <input type="text" id="special_request" name="special_request" placeholder="Enter special request">
                     </div>
                     <input type="submit" class="roomInfo__form__button" onclick="sendAlert()" name="" id=""
                         value="CHECK AVAILABILITY">
