@@ -37,6 +37,10 @@
             background: #D8D8D8;
         }
 
+        .swiper-wrapper {
+            height: auto;
+        }
+
         &__item {
             padding: 2rem;
             cursor: pointer;

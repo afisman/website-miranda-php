@@ -443,8 +443,6 @@ body {
   background-color: #BEAD8E;
   max-width: 20.625rem;
   border: none;
-}
-.calendarSection__form__button a {
   font-size: 0.875rem;
   line-height: 0.951875rem;
   letter-spacing: 0.2rem;
@@ -755,6 +753,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .featuresSection__swiper {
   margin-bottom: 2rem;
   margin: 0 auto;
+}
+.featuresSection__swiper .swiper-wrapper {
+  height: auto;
 }
 .featuresSection__swiper__item {
   padding: 2rem;
@@ -1385,6 +1386,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .AboutFacilities__swiper .swiper-pagination-bullet {
   background: #D8D8D8;
+}
+.AboutFacilities__swiper .swiper-wrapper {
+  height: auto;
 }
 .AboutFacilities__swiper__item {
   padding: 2rem;

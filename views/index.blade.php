@@ -5,8 +5,8 @@
                 <p>THE ULTIMATE LUXURY EXPERIENCE</p>
                 <h2>The Perfect</br> Base For You</h2>
                 <div class="bannerSection__buttons">
-                    <button class="bannerSection__buttons--tour">TAKE A TOUR</button>
-                    <button class="bannerSection__buttons--learn">LEARN MORE</button>
+                    <a href="./about.php"><button class="bannerSection__buttons--tour">TAKE A TOUR</button></a>
+                    <a href="./contact.php"><button class="bannerSection__buttons--learn">LEARN MORE</button></a>
                 </div>
             </div>
         </section>
