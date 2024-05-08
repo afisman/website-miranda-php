@@ -18,11 +18,10 @@ function bookingFormHandler ($conn, $room) {
         $stmt1->bind_param("iss", $room, $check_out, $check_in);
         $stmt1->execute();
         $result = $stmt1->get_result()->fetch_assoc();
-        print_r($result);
-        if($result["count"] > 0) {
 
+        if($result["count"] > 0) {
             echo "<script>
-            swal( 'Room is not available for these dates'
+            swal( 'Room is not available for these dates, try with a different range of dates.'
             );
             </script>";
             header("Location: index.php");
@@ -37,12 +36,12 @@ function bookingFormHandler ($conn, $room) {
 
             echo "<script>
             swal(
-            'Booking created successfully.'
+            'Booking created successfully!!'
             );
         </script>";
             $stmt->close();
             header("Location: index.php");
-            exit();
+            die("<script>location.href = 'index.php'</script>");
         }
         
         $conn->close();

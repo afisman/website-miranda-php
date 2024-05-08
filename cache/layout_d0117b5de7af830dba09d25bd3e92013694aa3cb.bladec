@@ -1,7 +1,6 @@
 <?php  $this->startComponent('head'); ?>
 <?php echo $this->renderComponent(); ?>
 <body>
- <script>swal("Hello world")</script>
  <?php  $this->startComponent('header'); ?>
  <?php echo $this->renderComponent(); ?>
  <?php $this->startSection('content'); ?>
