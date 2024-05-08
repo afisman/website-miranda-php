@@ -38,4 +38,5 @@ WHERE booked_rooms.room IS NULL
 OR room._id NOT IN (SELECT DISTINCT room FROM booking)
 AND room.status = 'Available';"
 
+
 ?>

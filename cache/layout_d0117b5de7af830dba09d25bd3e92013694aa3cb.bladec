@@ -1,11 +1,11 @@
 <?php  $this->startComponent('head'); ?>
 <?php echo $this->renderComponent(); ?>
 <body>
+ <script>swal("Hello world")</script>
  <?php  $this->startComponent('header'); ?>
  <?php echo $this->renderComponent(); ?>
  <?php $this->startSection('content'); ?>
  <?php echo $this->yieldSection(); ?>
  <?php  $this->startComponent('footer'); ?>
  <?php echo $this->renderComponent(); ?>
- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>

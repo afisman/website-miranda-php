@@ -7,16 +7,16 @@ function contactFormControl ($conn) {
         $email = htmlspecialchars($_POST["email"]);
         $phone = htmlspecialchars($_POST["phone"]);
         $date = date("Y/m/d");
-        // $subject = htmlspecialchars($_POST["subject"]);
+        $subject = htmlspecialchars($_POST["subject"]);
         $message = htmlspecialchars($_POST["message"]);
         $rating = 5;
         $is_read = false;
     
         $stmt = $conn->prepare("
         INSERT INTO contact 
-                (image, full_name, email, phone, date, message, rating, is_read)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
-        $stmt->bind_param("ssssssii", $image, $name, $email, $phone, $date, $message, $rating, $is_read);
+                (image, full_name, email, phone, date, message, subject, rating, is_read)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+        $stmt->bind_param("ssssssii", $image, $name, $email, $phone, $date, $message, $subject, $rating, $is_read);
         $stmt->execute();
         echo "Created message successfully";
         $stmt->close();

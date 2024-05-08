@@ -10,19 +10,20 @@ const offersSwiper = new Swiper('.OffersPopular__slider', {
         1000: {
             slidesPerView: 3,
             spaceBetween: 30,
+            centeredSlides: false
         }
     }
 
 });
 
-window.onload = function () {
-    const width = document.body.offsetWidth;
-    if (width > 1000) {
-        offersSwiper.params.centeredSlides = false
-        offersSwiper.update()
-    } else {
-        offersSwiper.params.centeredSlides = true
-        offersSwiper.update()
-    }
-}
+// window.onload = function () {
+//     const width = document.body.offsetWidth;
+//     if (width > 1000) {
+//         offersSwiper.params.centeredSlides = false
+//         offersSwiper.update()
+//     } else {
+//         offersSwiper.params.centeredSlides = true
+//         offersSwiper.update()
+//     }
+// }
 

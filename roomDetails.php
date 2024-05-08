@@ -18,8 +18,8 @@ $offerData = array();
 
 $populatedArray = populateArray($allRoomsResult, $offerData);
 
-bookingFormHandler($conn, $roomId);
 
 $values = ['title' => 'Room Details', 'room'=>$oneRoom, 'offerRooms' => $populatedArray];
 renderTemplate('roomDetails', $values);
+bookingFormHandler($conn, $roomId);
 ?>

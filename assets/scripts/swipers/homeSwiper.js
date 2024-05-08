@@ -21,7 +21,9 @@ const featuresSwiper = new Swiper('.featuresSection__swiper', {
             grid: {
                 rows: 2,
                 fill: 'rows'
-            }
+            },
+            centeredSlides: false
+
         }
     },
 });
@@ -47,7 +49,9 @@ const menuSwiper = new Swiper('.foodSection__body__swiper', {
             grid: {
                 rows: 3,
                 fill: 'rows'
-            }
+            },
+            centeredSlides: false
+
         }
     },
 });
@@ -62,31 +66,32 @@ const imagesSwiper = new Swiper('.imagesSection__swiper', {
     breakpoints: {
         1000: {
             slidesPerView: 3,
+            centeredSlides: true
         }
     },
 });
 
-window.onload = function () {
-    const width = document.body.offsetWidth;
-    if (width >= 1000) {
+// window.onload = function () {
+//     const width = document.body.offsetWidth;
+//     if (width >= 1000) {
 
-        swiper.params.centeredSlides = false;
-        swiper.update()
+//         swiper.params.centeredSlides = false;
+//         swiper.update()
 
-        menuSwiper.params.centeredSlides = false
-        menuSwiper.update()
+//         menuSwiper.params.centeredSlides = false
+//         menuSwiper.update()
 
-        imagesSwiper.params.pagination.clickable = false
-        imagesSwiper.update()
-    } else {
+//         imagesSwiper.params.pagination.clickable = false
+//         imagesSwiper.update()
+//     } else {
 
-        swiper.params.centeredSlides = false;
-        swiper.update()
+//         swiper.params.centeredSlides = false;
+//         swiper.update()
 
-        menuSwiper.params.centeredSlides = true
-        menuSwiper.update()
+//         menuSwiper.params.centeredSlides = true
+//         menuSwiper.update()
 
-        imagesSwiper.params.pagination.clickable = true
-        imagesSwiper.update()
-    }
-}
+//         imagesSwiper.params.pagination.clickable = true
+//         imagesSwiper.update()
+//     }
+// }

@@ -15,7 +15,7 @@ const roomsSwiper = new Swiper('.RoomsGridSection__swiper', {
     },
     grid: {
         rows: 6,
-        fill: "row",
+        // fill: "row",
     },
     breakpoints: {
         1000: {
@@ -30,13 +30,13 @@ const roomsSwiper = new Swiper('.RoomsGridSection__swiper', {
 });
 
 
-window.onload = function () {
-    const width = document.body.offsetWidth;
-    if (width >= 1000) {
-        roomsSwiper.params.centeredSlides = false
-        roomsSwiper.update()
-    } else {
-        roomsSwiper.params.centeredSlides = true
-        roomsSwiper.update()
-    }
-}
+// window.onload = function () {
+//     const width = document.body.offsetWidth;
+//     if (width >= 1000) {
+//         roomsSwiper.params.centeredSlides = false
+//         roomsSwiper.update()
+//     } else {
+//         roomsSwiper.params.centeredSlides = true
+//         roomsSwiper.update()
+//     }
+// }

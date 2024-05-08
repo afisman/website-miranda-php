@@ -29,7 +29,7 @@
                     </div>
                     <img src={{$room['photos']}} alt="">
                 </div>
-                <form class="roomInfo__form" method="POST">
+                <form class="roomInfo__form" method="POST" >
                     <h4>Check Availability</h4>
                     <div class="roomInfo__form__item">
                         <label for="arrival">Check In</label>
@@ -55,7 +55,7 @@
                         <label for="phone">Special request</label>
                         <input type="text" id="special_request" name="special_request" placeholder="Enter special request">
                     </div>
-                    <input type="submit" class="roomInfo__form__button" onclick="sendAlert()" name="" id=""
+                    <input type="submit" class="roomInfo__form__button" name="" id=""
                         value="CHECK AVAILABILITY">
                 </form>
             </div>
@@ -452,7 +452,7 @@
                             <p>{{$offerRoom['description']}}</p>
                             <div class="OffersPopular__slider__text__price">
                                 <h4>${{$offerRoom['price']}}/Night</h4>
-                                <h5><a href="./roomDetails.php?id={{$offerRoom['_id']}}">Booking Now</a></h5>
+                                <h5><a href="./roomDetails.php?id={{$offerRoom['_id']}}">Book Now</a></h5>
                             </div>
                         </div>
                     </div>
