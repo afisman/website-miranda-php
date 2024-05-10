@@ -24,7 +24,6 @@ function bookingFormHandler ($conn, $room) {
             swal( 'Room is not available for these dates, try with a different range of dates.'
             );
             </script>";
-            header("Location: index.php");
             exit();
         } else {
             $stmt = $conn->prepare("
@@ -40,7 +39,6 @@ function bookingFormHandler ($conn, $room) {
             );
         </script>";
             $stmt->close();
-            header("Location: index.php");
             die("<script>location.href = 'index.php'</script>");
         }
         

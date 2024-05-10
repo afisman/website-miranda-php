@@ -18,9 +18,15 @@ function contactFormControl ($conn) {
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
         $stmt->bind_param("ssssssii", $image, $name, $email, $phone, $date, $message, $subject, $rating, $is_read);
         $stmt->execute();
-        echo "Created message successfully";
+        echo "<script>
+            swal(
+            'Thank you for contacting us, we will read it and get back to you shortly.'
+            );
+        </script>";
         $stmt->close();
         $conn->close();
+        die("<script>location.href = 'index.php'</script>");
+
     }
 }
 
