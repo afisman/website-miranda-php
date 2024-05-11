@@ -146,9 +146,11 @@
                         display: block;
                     }
 
-                    &:hover {
-                        background-color: #111;
-                        color: #fff;
+                    &__text {
+                        &:hover {
+                            background-color: #111;
+                            color: #fff;
+                        }
                     }
 
                     &:hover>&__arrow {

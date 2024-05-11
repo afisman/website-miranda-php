@@ -19,7 +19,7 @@
  </label>
  </div>
  <div class="calendarSection__form__date">
- <label for="departure">LeDeparture Date
+ <label for="departure">Departure Date
  <input type="date" id="departure" name="departure" >
  </label>
  </div>

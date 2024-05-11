@@ -24,7 +24,7 @@ const roomsSwiper = new Swiper('.RoomsGridSection__swiper', {
                 rows: 2,
                 fill: 'row'
             },
-            centeredSlides: true
+            centeredSlides: false
         }
     }
 });
