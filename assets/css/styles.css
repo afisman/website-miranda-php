@@ -1128,6 +1128,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .imagesSection__swiper .swiper-wrapper {
   margin: 4rem 0;
+  height: auto;
 }
 .imagesSection__swiper__item {
   text-align: center;
@@ -2738,6 +2739,24 @@ input[type=date]::-webkit-calendar-picker-indicator {
     gap: 3rem;
   }
 }
+.ContactMap {
+  max-width: 73.125rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.ContactMap__map {
+  padding-bottom: 50%;
+  position: relative;
+  width: 100%;
+}
+.ContactMap__map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
 .RoomsListSection {
   padding: 1rem;
   max-width: 73.125rem;
